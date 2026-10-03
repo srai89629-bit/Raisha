@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raisha</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f3ff;
+  color:#222;
+  padding-bottom:75px
+}
+header{
+  background:#fff;
+  padding:18px;
+  position:sticky;
+  top:0;
+  z-index:10;
+  border-bottom:1px solid #ddd
+}
+.logo{
+  font-size:28px;
+  font-weight:bold;
+  color:#6c4cff
+}
+.search{
+  margin-top:12px;
+  width:100%;
+  padding:12px 15px;
+  border:1px solid #ddd;
+  border-radius:25px;
+  outline:none
+}
+main{padding:15px}
+.card{
+  background:white;
+  border-radius:18px;
+  padding:16px;
+  margin-bottom:15px;
+  box-shadow:0 3px 12px #00000010
+}
+.profile{
+  display:flex;
+  align-items:center;
+  gap:12px
+}
+.avatar{
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  background:#6c4cff;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  font-size:20px
+}
+.name{font-weight:bold}
+.time{font-size:12px;color:#888}
+.post{margin-top:15px;line-height:1.5}
+.actions{
+  display:flex;
+  justify-content:space-between;
+  margin-top:15px
+}
+button{
+  border:0;
+  background:#eee9ff;
+  color:#5b3ee4;
+  padding:9px 15px;
+  border-radius:20px;
+  cursor:pointer
+}
+.feature{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px
+}
+.feature button{
+  padding:18px 8px;
+  background:#f0edff;
+  font-size:15px
+}
+nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:65px;
+  background:white;
+  border-top:1px solid #ddd;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  z-index:20
+}
+nav button{
+  background:transparent;
+  font-size:13px;
+  padding:5px
+}
+nav .active{color:#6c4cff;font-weight:bold}
+#welcome{
+  background:linear-gradient(135deg,#6c4cff,#9d7cff);
+  color:white
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Raisha</div>
+  <input class="search" id="search"
+         placeholder="Raisha par search karein...">
+</header>
+
+<main>
+
+<div class="
